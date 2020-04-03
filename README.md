@@ -5,12 +5,12 @@ Microbial genomes (e.g., those of bacterial and viral pathogens) differ from euk
 
 Specifically, microbial genome evolution has the following characteristics that warantee a specialized simulation tool:
 
-## Haploid, mostly protein coding sequences. No introns.
+1. Haploid, mostly protein coding sequences. No introns.
 
-## Strong selection & weak drift due to large population sizes. Pesence of strong purifying as well as adaptive natural selection preclude the use of neutral, efficient coalescence-based simulators like ms.
+2. Strong selection & weak drift due to large population sizes. Pesence of strong purifying as well as adaptive natural selection preclude the use of neutral, efficient coalescence-based simulators like ms.
 
-## Recombination rates at the order of mutation rates (not as frequent as in sexually-reproducing eukaryotes).
+3. Recombination rates at the order of mutation rates (not as frequent as in sexually-reproducing eukaryotes).
 
-## Recombination occurs by gene conversion (not exchange).
+4. Recombination occurs by gene conversion (not exchange).
 
 This repository consists of Perl modules (made with Moose) for forward-simulation of microbial genome evolution at population level. It also include calling scripts and post-processing scripts. It has previously been used to produce results of this publication:  http://www.genetics.org/content/189/3/951.long
